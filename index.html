@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/contact-me">
+        <label for="email"> UserName: </label>
+        <input type="text"id="email" placeholder="Email"><br>
+        Password: <input type="password" required="true"> <br>
+        Date: <input type="date"> <br>
+        File: <input type="file"><br>
+        Color: <input type="color"><br>
+        Price Range: <input type="range"><br>
+        Poke Me: <input type="button" value="poked"> <br>
+        <hr>
+        <label for="male">Male: </label>
+        <input type="radio" id="male" name="gender" value="male"><br>
+        <label for="female">Female: </label>
+        <input type="radio" id="female" name="gender" value="female"><br>
+        <label for="other">Other: </label>
+        <input type="radio" id="other" name="gender" value="other"><br>
+        <hr>
+        <label for="C">C</label>
+        <input type="checkbox" name="language" id="C" value="C"> <br>
+        <label for="C++">C++</label>
+        <input type="checkbox" name="language" id="C++" value="C++">  <br>
+        <label for="Java">Java</label>
+        <input type="checkbox" name="language" id="Java" value="Java"> <br>
+        <hr>
+        <label for="country">Select Your Country</label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="US">US</option>
+            <option value="UK">UK</option>
+            <option value="Other">Other</option>
+        </select> <br> <br> 
+        <hr>
+        <textarea name="story" id="story" cols="30" rows="10">Default text here</textarea>
+        <input type="submit">
+    </form>
+</body>
+</html>
